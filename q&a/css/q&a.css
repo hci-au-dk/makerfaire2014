@@ -1,0 +1,12 @@
+body {
+    margin: 0px 10px auto;
+    text-align:center;
+    font-family: verdana;
+}
+
+#ask {
+    margin:10px 10px auto;    
+    background: green;
+    color: white;
+    padding: 10px;
+}
