@@ -3,29 +3,24 @@
 <head>
     <script src="js/jquery-2.1.0.min.js"></script>
     <script src="js/uimockup2.js"></script>
-
+    <meta name="viewport" content="initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/uimockup2.css">
     
     </style>
 </head>
 <body>
-    <table id="tabs">
-        <tr id="tabHeader" class="header">
-            <td><span id="hereLabel">HER:</span><span id="maker">makername</span></td>
-        </tr>
-        <tr id="tabRow" class="tabRow">
-            <td>   
+    <div id="header">
+        <td><span id="hereLabel">HER: </span><span id="maker">makername</span></td>
+    
                 <table>
                     <tr>
-                        <td class="tab selected">Foo</td>
-                        <td class="tab">Bar</td>
-                        <td class="tab">Baz</td>
-                        <td class="tab">Qux</td>
+                        <td id="purple" class="tab selected"><img src="gfx/info_icon.png" width="32" height="32" alt="Info"></td>
+                        <td id="green" class="tab"><img src="gfx/map_icon.png" width="32" height="32" alt="Kort"></td>
+                        <td id="yellow" class="tab"><img src="gfx/ask_icon.png" width="32" height="32" alt="Q&amp;A"></td>
+                        <td id="red" class="tab"><img src="gfx/experiment_icon.png" width="32" height="32" alt="Service"></td>
                     </tr>
                 </table>
-            <td>
-        </tr>
-    </table>
+    </div>
     <iframe id='content' src="http://www.makerfaire.dk"></iframe>
 </body>
 </html>

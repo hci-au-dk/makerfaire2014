@@ -3,42 +3,53 @@ body {
     margin: 0;
     font-family: Helvetica;
 }
-#tabs {
-    padding: 10px 0px; 
-    height: 20%;
+
+#header {
+    box-shadow: 1px 1px 5px 1px #aaa;
     width: 100%;
-    color: white;
-    background-image: -webkit-gradient(
-    	linear,
-    	left top,
-    	left bottom,
-    	color-stop(0, #02028A),
-    	color-stop(1, #5277BF)
-    );
-    background-image: -o-linear-gradient(bottom, #02028A 0%, #5277BF 100%);
-    background-image: -moz-linear-gradient(bottom, #02028A 0%, #5277BF 100%);
-    background-image: -webkit-linear-gradient(bottom, #02028A 0%, #5277BF 100%);
-    background-image: -ms-linear-gradient(bottom, #02028A 0%, #5277BF 100%);
-    background-image: linear-gradient(to bottom, #02028A 0%, #5277BF 100%);
+    background:white;
+    font-size: 1.2em;
     text-align: center;
-} 
+    position:fixed;
+    top: 0px;
+    left:0px;
+    padding-top:10px;
+}
 
-.selected {
 
+.selected#purple{
+    border-bottom: 2px solid #8d2f88;
+}
+
+.selected#green {
+    border-bottom: 2px solid #1a9338;
+}
+
+.selected #yellow {
+    border-bottom: 2px solid #b0cc50;
+}
+
+.selected #red{
+    border-bottom: 2px solid #e5292a;
 }
 
 #hereLabel {
     color: rgba(0, 173, 242, 255);
-    font-weight: bold;
+    font-weight: bold;   
+}
+
+#maker {
+    color: #8d2f88;
 }
 
 table {
     margin: 0px 0px;
-    padding: 0;
     width: 100%;
+    border-collapse: collapse;
 }
 
 iframe {
+    margin-top:25%;
     width: 100%;
     min-height: 100%;
     border: none;
